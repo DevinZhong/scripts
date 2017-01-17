@@ -33,7 +33,7 @@ sed -i 's/\(DAEMON_ARGS\).*$/\1="-u -A --fast-open"/' /etc/default/shadowsocks-l
 read -p "please input password for shadowsocks-libev (way2hacker.com):" shadowsockspwd
 [ -z "${shadowsockspwd}" ] && shadowsockspwd="way2hacker.com"
 
-read -p "please input port for shadowsocks-libev (8686)" shadowsocksport
+read -p "please input port for shadowsocks-libev (8686):" shadowsocksport
 [ -z "$shadowsocksport" ] && shadowsocksport="8686"
 
 cat << EOF > /etc/shadowsocks-libev/config.json
