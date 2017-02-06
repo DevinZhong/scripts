@@ -16,7 +16,4 @@ su - root
 wget https://raw.githubusercontent.com/DevinZhong/scripts/master/shadowsocks/shadowsocks-libev_server.sh
 chmod +x shadowsocks-libev_server.sh
 ./shadowsocks-libev_server.sh
-
-# recommend
-reboot
 ```
