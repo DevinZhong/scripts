@@ -15,7 +15,7 @@ if [[ $EUID -ne 0 ]]; then
     exit 1
 fi
 
-echo -e "\n#### upgrade packages..."
+echo "#### upgrade packages..."
 yum upgrade -y
 
 echo -e "\n#### install mono..."
